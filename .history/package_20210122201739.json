@@ -7,7 +7,7 @@
   },
   "name": "WEBD6201-ICE1",
   "version": "0.0.1",
-  "description": "ICE 2 for WEBD6201",
+  "description": "ICE 1 for WEBD6201",
   "main": "index.js",
   "repository": "https://github.com/JonathonWager/Webd6201.git",
   "author": "Jonathon Wager",
