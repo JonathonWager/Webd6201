@@ -54,7 +54,7 @@
         // update / modification
         //mainContent.firstElementChild.textContent = "Welcome Home!";
 
-        mainContent.innerHTML = `<h1 id="firstHeading">Welcome to WEBD6201 - Lab 1</h1>
+        mainContent.innerHTML = `<h1 id="firstHeading">Welcome to WEBD6201 - ICE 1</h1>
          <p id="paragraphOne" class="fs-3 fw-bold">This is my first Paragraph</p>
         `;
         
@@ -100,18 +100,12 @@
 
         let sendButton = document.getElementById("sendButton");
         sendButton.addEventListener("click", function(event){
-            //event.preventDefault();
-            
-            let contact = new Contact(fullName.value, contactNumber.value, emailAddress.value);
 
-            if(contact.serialize())
-            {
-              localStorage.setItem((localStorage.length + 1).toString(), contact.serialize());
-            }
-           
+            console.log(fullName.value);
+            console.log(contactNumber.value);
+            console.log(emailAddress.value);
         });
     }
-
     function displayContactList() 
     {
       if (localStorage.length > 0) 
@@ -138,9 +132,6 @@
         contactList.innerHTML = data;
       }
     }
-
-     
-
     function Start()
     {
         console.log("App Started...");
@@ -162,7 +153,7 @@
           case "Contact":
               displayContact();
             break;
-          case "Contact-List":
+            case "Contact-List":
             displayContactList();
           break;
         }
