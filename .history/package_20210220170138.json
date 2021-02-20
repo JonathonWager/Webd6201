@@ -5,7 +5,7 @@
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   },
-  "name": "WEBD6201-ICE5",
+  "name": "WEBD6201-ICE4",
   "version": "0.0.1",
   "description": "ICE 5 for WEBD6201",
   "main": "app.js",
